@@ -86,7 +86,7 @@ img {
 
 }
 
-.info, h2 {
+.h2-info {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -101,7 +101,7 @@ img {
 }
 
 .item {
-    width: 100px;
+    width: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -114,14 +114,14 @@ img {
 }
 
 .box {
-    height: 100px;
+    height: 150px;
     border: 2px #3882F6 solid;
     border-radius: 20px;
 }
 
 /* -------------------QUOTE--------------------- */
 .quote-container {
-padding: 40px 120px;
+padding: 60px 200px;
 background-color: #E5E7EB;
 height: auto;
 }
@@ -141,11 +141,11 @@ height: auto;
 }
 
 /* ---------------CTA------------------- */
-.padding-40 {
-    padding: 40px 120px;
+.padding-60 {
+    padding: 60px 120px;
 }
 
-.CTA {
+.cta {
     padding: 36px;
     background-color: #3882F6;
     color: white;
@@ -155,7 +155,8 @@ height: auto;
     align-items: center;
 }
 
-.CTA h2 {
+
+.h2-cta {
     font-weight: 500;
     font-size: 24px;
     padding-bottom: 8px;
@@ -184,4 +185,11 @@ button, .outline {
 
 }
 
-
+/* -------------FOOTER---------------- */
+.footer {
+    text-align: center;
+    
+    padding: 32px 0px;
+    background-color: #1F2937;
+    color: white;
+}

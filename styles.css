@@ -1,0 +1,187 @@
+* {
+    /* To reset spacing */
+    margin: 0; 
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+
+}
+
+/* ------------HEADER-------------- */
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* ------------hero-------------- */
+.hero {
+    background-color: #1F2937;
+    color: white;
+    padding: 60px 120px 80px 120px;
+    display: flex;
+    gap: 32px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-bottom: 8px;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5E7EB;
+    padding-bottom: 16px;
+}
+
+.placeholder-img {
+    height: 200px;
+    padding: 16px;
+    flex: 1;
+    background-color: rgb(104, 113, 122);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------------INFO BOXES------------------- */
+.info {
+    padding: 40px 120px;
+
+}
+
+.info, h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.item-list {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.item {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item p {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    border: 2px #3882F6 solid;
+    border-radius: 20px;
+}
+
+/* -------------------QUOTE--------------------- */
+.quote-container {
+padding: 40px 120px;
+background-color: #E5E7EB;
+height: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding-bottom: 12px;
+}
+
+.quote-name {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
+
+/* ---------------CTA------------------- */
+.padding-40 {
+    padding: 40px 120px;
+}
+
+.CTA {
+    padding: 36px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA h2 {
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+/* -------------BUTTONS---------------- */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+/* BLUE */
+button, .blue {
+    background-color: #3882F6;
+    color: #FFF;
+    border: 0px solid white;
+}
+
+/* OUTLINE */
+button, .outline {
+    background-color: none;
+    color: #FFF;
+    border: 1px solid white;
+
+}
+
+
